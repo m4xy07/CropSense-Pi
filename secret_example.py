@@ -10,3 +10,4 @@ SECRET_TWILIO_AUTH_TOKEN = "Your_Twilio_Auth_Token"
 SECRET_TWILIO_PHONE_NUMBER = "Your_Twilio_Phone_Number"
 SECRET_RECIPIENT_PHONE_NUMBER = "Recipient_Phone_Number"
 CERT = "-----BEGIN CERTIFICATE-----\nYour_Certificate\n-----END CERTIFICATE-----"
+
