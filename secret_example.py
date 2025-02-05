@@ -1,0 +1,12 @@
+SECRET_SSID = "Your_SSID"
+SECRET_PASS = "Your_PASSWORD"
+SECRET_SSID2 = "Your_SSID2"
+SECRET_PASS2 = "Your_PASSWORD2"
+SHARED_SECRET = "Your_Shared_Secret"
+IPadd = "Your_Host_IP"
+PORT = 3000
+SECRET_TWILIO_ACCOUNT_SID = "Your_Twilio_Account_SID"
+SECRET_TWILIO_AUTH_TOKEN = "Your_Twilio_Auth_Token"
+SECRET_TWILIO_PHONE_NUMBER = "Your_Twilio_Phone_Number"
+SECRET_RECIPIENT_PHONE_NUMBER = "Recipient_Phone_Number"
+CERT = "-----BEGIN CERTIFICATE-----\nYour_Certificate\n-----END CERTIFICATE-----"

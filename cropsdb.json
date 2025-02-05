@@ -1,0 +1,807 @@
+{
+  "crops": [
+    {
+      "name": "Apple",
+      "temperature": {
+        "min": 18,
+        "max": 24
+      },
+      "humidity": {
+        "min": 50,
+        "max": 70
+      },
+      "soil_moisture": {
+        "min": 20,
+        "max": 30
+      },
+      "sowing_months": [
+        "January",
+        "February"
+      ],
+      "harvesting_months": [
+        "September",
+        "October"
+      ],
+      "wholesale_price": {
+        "January": 8000,
+        "February": 8000,
+        "March": 8750,
+        "April": 9000,
+        "May": 7500,
+        "June": 8500,
+        "July": 9500,
+        "August": 8500,
+        "September": 9500,
+        "October": 7500,
+        "November": 7000,
+        "December": 8500
+      },
+      "retail_price": {
+        "January": 15000,
+        "February": 20000,
+        "March": 20000,
+        "April": 20000,
+        "May": 20000,
+        "June": 20000,
+        "July": 20000,
+        "August": 20000,
+        "September": 15000,
+        "October": 15000,
+        "November": 15000,
+        "December": 20000
+      },
+      "NPK_fertilizer": "11-15-15",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 652.92,
+        "Phosphorus": 86.15,
+        "Potassium": 425.08
+      }
+    },
+    {
+      "name": "Banana",
+      "temperature": {
+        "min": 26,
+        "max": 30
+      },
+      "humidity": {
+        "min": 70,
+        "max": 80
+      },
+      "soil_moisture": {
+        "min": 30,
+        "max": 40
+      },
+      "sowing_months": [
+        "June",
+        "July"
+      ],
+      "harvesting_months": [
+        "June",
+        "July"
+      ],
+      "wholesale_price": {
+        "January": 1500,
+        "February": 1500,
+        "March": 1500,
+        "April": 1500,
+        "May": 1500,
+        "June": 1500,
+        "July": 1150,
+        "August": 1000,
+        "September": 1000,
+        "October": 1200,
+        "November": 1150,
+        "December": 1100
+      },
+      "retail_price": {
+        "January": 5000,
+        "February": 5000,
+        "March": 5000,
+        "April": 5000,
+        "May": 5000,
+        "June": 5000,
+        "July": 5000,
+        "August": 5000,
+        "September": 5000,
+        "October": 5000,
+        "November": 5000,
+        "December": 5000
+      },
+      "NPK_fertilizer": "10-8-10",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 275,
+        "Phosphorus": 35,
+        "Potassium": 1000
+      }
+    },
+    {
+      "name": "Grapes",
+      "temperature": {
+        "min": 20,
+        "max": 30
+      },
+      "humidity": {
+        "min": 50,
+        "max": 70
+      },
+      "soil_moisture": {
+        "min": 25,
+        "max": 30
+      },
+      "sowing_months": [
+        "February",
+        "March"
+      ],
+      "harvesting_months": [
+        "February",
+        "March"
+      ],
+      "wholesale_price": {
+        "January": 7000,
+        "February": 7000,
+        "March": 7000,
+        "April": 6000,
+        "May": 6000,
+        "June": 6000,
+        "July": 5750,
+        "August": 5500,
+        "September": 5500,
+        "October": 5300,
+        "November": 5400,
+        "December": 5400
+      },
+      "retail_price": {
+        "January": 15000,
+        "February": 15000,
+        "March": 15000,
+        "April": 15000,
+        "May": 15000,
+        "June": 15000,
+        "July": 15000,
+        "August": 12000,
+        "September": 12000,
+        "October": 12500,
+        "November": 13000,
+        "December": 14000
+      },
+      "NPK_fertilizer": "10-10-10",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 170,
+        "Phosphorus": 90,
+        "Potassium": 250
+      }
+    },
+    {
+      "name": "Papaya",
+      "temperature": {
+        "min": 21,
+        "max": 33
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80
+      },
+      "soil_moisture": {
+        "min": 30,
+        "max": 40
+      },
+      "sowing_months": [
+        "July",
+        "August"
+      ],
+      "harvesting_months": [
+        "October",
+        "November"
+      ],
+      "wholesale_price": {
+        "January": 800,
+        "February": 1100,
+        "March": 1200,
+        "April": 2000,
+        "May": 400,
+        "June": 800,
+        "July": 900,
+        "August": 2150,
+        "September": 2800,
+        "October": 2400,
+        "November": 1800,
+        "December": 1100
+      },
+      "retail_price": {
+        "January": 5000,
+        "February": 5000,
+        "March": 6500,
+        "April": 6500,
+        "May": 6000,
+        "June": 6000,
+        "July": 6000,
+        "August": 6000,
+        "September": 6000,
+        "October": 6500,
+        "November": 6000,
+        "December": 5800
+      },
+      "NPK_fertilizer": "10-10-10",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 300,
+        "Phosphorus": 300,
+        "Potassium": 300
+      }
+    },
+    {
+      "name": "Pineapple",
+      "temperature": {
+        "min": 20,
+        "max": 30
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80
+      },
+      "soil_moisture": {
+        "min": 20,
+        "max": 30
+      },
+      "sowing_months": [
+        "April",
+        "May"
+      ],
+      "harvesting_months": [
+        "June",
+        "July",
+        "August"
+      ],
+      "wholesale_price": {
+        "January": 1100,
+        "February": 960,
+        "March": 800,
+        "April": 880,
+        "May": 960,
+        "June": 960,
+        "July": 960,
+        "August": 960,
+        "September": 960,
+        "October": 960,
+        "November": 960,
+        "December": 960
+      },
+      "retail_price": {
+        "January": 7000,
+        "February": 7000,
+        "March": 8000,
+        "April": 8000,
+        "May": 7000,
+        "June": 9600,
+        "July": 7000,
+        "August": 7000,
+        "September": 6500,
+        "October": 6500,
+        "November": 6500,
+        "December": 6500
+      },
+      "NPK_fertilizer": "10-20-10",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 223.15,
+        "Phosphorus": 18.55,
+        "Potassium": 369.34
+      }
+    },
+    {
+      "name": "Sapota",
+      "temperature": {
+        "min": 20,
+        "max": 35
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80
+      },
+      "soil_moisture": {
+        "min": 20,
+        "max": 30
+      },
+      "sowing_months": [
+        "September",
+        "October"
+      ],
+      "harvesting_months": [
+        "January",
+        "February"
+      ],
+      "wholesale_price": {
+        "January": 4000,
+        "February": 3500,
+        "March": 4000,
+        "April": 4000,
+        "May": 4500,
+        "June": 4500,
+        "July": 4500,
+        "August": 4500,
+        "September": 4000,
+        "October": 4500,
+        "November": 4400,
+        "December": 4200
+      },
+      "retail_price": {
+        "January": 8000,
+        "February": 8000,
+        "March": 8000,
+        "April": 8000,
+        "May": 8000,
+        "June": 8000,
+        "July": 8000,
+        "August": 8000,
+        "September": 8000,
+        "October": 15000,
+        "November": 8200,
+        "December": 8600
+      },
+      "NPK_fertilizer": "10-10-15",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 50,
+        "Phosphorus": 25,
+        "Potassium": 50
+      }
+    },
+    {
+      "name": "Mango",
+      "temperature": {
+        "min": 24,
+        "max": 30
+      },
+      "humidity": {
+        "min": 50,
+        "max": 70
+      },
+      "soil_moisture": {
+        "min": 20,
+        "max": 30
+      },
+      "sowing_months": [
+        "July",
+        "August"
+      ],
+      "harvesting_months": [
+        "May",
+        "June",
+        "July"
+      ],
+      "wholesale_price": {
+        "January": 8800,
+        "February": 7200,
+        "March": 4700,
+        "April": 13000,
+        "May": 10000,
+        "June": 4400,
+        "July": 4000,
+        "August": 12000,
+        "September": 12000,
+        "October": 4400,
+        "November": 4400,
+        "December": 4500
+      },
+      "retail_price": {
+        "January": 18000,
+        "February": 14000,
+        "March": 9500,
+        "April": 25000,
+        "May": 24000,
+        "June": 10500,
+        "July": 10000,
+        "August": 18000,
+        "September": 18000,
+        "October": 10000,
+        "November": 8900,
+        "December": 9400
+      },
+      "NPK_fertilizer": "8-3-9",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 20,
+        "Phosphorus": 30,
+        "Potassium": 40
+      }
+    },
+    {
+      "name": "Bitter Gourd",
+      "temperature": {
+        "min": 25,
+        "max": 30
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80
+      },
+      "soil_moisture": {
+        "min": 20,
+        "max": 30
+      },
+      "sowing_months": [
+        "February",
+        "March"
+      ],
+      "harvesting_months": [
+        "July",
+        "August"
+      ],
+      "wholesale_price": {
+        "January": 3500,
+        "February": 3000,
+        "March": 3000,
+        "April": 3100,
+        "May": 3400,
+        "June": 4000,
+        "July": 3000,
+        "August": 2700,
+        "September": 2800,
+        "October": 3400,
+        "November": 3200,
+        "December": 3000
+      },
+      "retail_price": {
+        "January": 12000,
+        "February": 8100,
+        "March": 8000,
+        "April": 8000,
+        "May": 8100,
+        "June": 9500,
+        "July": 10000,
+        "August": 9800,
+        "September": 9800,
+        "October": 10000,
+        "November": 11000,
+        "December": 10500
+      },
+      "NPK_fertilizer": "6-12-12",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 200,
+        "Phosphorus": 100,
+        "Potassium": 100
+      }
+    },
+    {
+      "name": "Brinjal",
+      "temperature": {
+        "min": 20,
+        "max": 30
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80
+      },
+      "soil_moisture": {
+        "min": 20,
+        "max": 30
+      },
+      "sowing_months": [
+        "July",
+        "August"
+      ],
+      "harvesting_months": [
+        "October",
+        "November"
+      ],
+      "wholesale_price": {
+        "January": 2900,
+        "February": 1800,
+        "March": 2000,
+        "April": 1800,
+        "May": 2000,
+        "June": 2500,
+        "July": 2500,
+        "August": 3200,
+        "September": 2600,
+        "October": 2700,
+        "November": 2800,
+        "December": 3000
+      },
+      "retail_price": {
+        "January": 9300,
+        "February": 8000,
+        "March": 8000,
+        "April": 8000,
+        "May": 8000,
+        "June": 8800,
+        "July": 9300,
+        "August": 10700,
+        "September": 9700,
+        "October": 10000,
+        "November": 10100,
+        "December": 9700
+      },
+      "NPK_fertilizer": "15-15-15",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 190,
+        "Phosphorus": 10.9,
+        "Potassium": 128
+      }
+    },
+    {
+      "name": "Cauliflower",
+      "temperature": {
+        "min": 15,
+        "max": 20
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80
+      },
+      "soil_moisture": {
+        "min": 25,
+        "max": 35
+      },
+      "sowing_months": [
+        "May",
+        "June",
+        "July"
+      ],
+      "harvesting_months": [
+        "September",
+        "October",
+        "November"
+      ],
+      "wholesale_price": {
+        "January": 1500,
+        "February": 1200,
+        "March": 1000,
+        "April": 1000,
+        "May": 1600,
+        "June": 1800,
+        "July": 1700,
+        "August": 1400,
+        "September": 2400,
+        "October": 2600,
+        "November": 2700,
+        "December": 3000
+      },
+      "retail_price": {
+        "January": 8000,
+        "February": 8000,
+        "March": 8000,
+        "April": 8000,
+        "May": 8600,
+        "June": 10300,
+        "July": 11000,
+        "August": 10300,
+        "September": 11200,
+        "October": 11800,
+        "November": 12500,
+        "December": 12500
+      },
+      "NPK_fertilizer": "10-10-10",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 125,
+        "Phosphorus": 70,
+        "Potassium": 80
+      }
+    },
+    {
+      "name": "Ginger",
+      "temperature": {
+        "min": 20,
+        "max": 30
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80
+      },
+      "soil_moisture": {
+        "min": 30,
+        "max": 40
+      },
+      "sowing_months": [
+        "March",
+        "April"
+      ],
+      "harvesting_months": [
+        "December",
+        "January"
+      ],
+      "wholesale_price": {
+        "January": 5000,
+        "February": 5200,
+        "March": 6200,
+        "April": 5800,
+        "May": 6300,
+        "June": 6000,
+        "July": 5000,
+        "August": 5000,
+        "September": 4500,
+        "October": 4500,
+        "November": 4400,
+        "December": 4200
+      },
+      "retail_price": {
+        "January": 11000,
+        "February": 16600,
+        "March": 20000,
+        "April": 20000,
+        "May": 20000,
+        "June": 20000,
+        "July": 20000,
+        "August": 20000,
+        "September": 20000,
+        "October": 15200,
+        "November": 16500,
+        "December": 18700
+      },
+      "NPK_fertilizer": "10-20-20",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 80,
+        "Phosphorus": 30,
+        "Potassium": 40
+      }
+    },
+    {
+      "name": "Onion",
+      "temperature": {
+        "min": 13,
+        "max": 24
+      },
+      "humidity": {
+        "min": 50,
+        "max": 70
+      },
+      "soil_moisture": {
+        "min": 20,
+        "max": 30
+      },
+      "sowing_months": [
+        "June",
+        "July"
+      ],
+      "harvesting_months": [
+        "October",
+        "November"
+      ],
+      "wholesale_price": {
+        "January": 5000,
+        "February": 5200,
+        "March": 6200,
+        "April": 5800,
+        "May": 6300,
+        "June": 6000,
+        "July": 5000,
+        "August": 5000,
+        "September": 4500,
+        "October": 4500,
+        "November": 4400,
+        "December": 4200
+      },
+      "retail_price": {
+        "January": 11000,
+        "February": 16600,
+        "March": 20000,
+        "April": 20000,
+        "May": 20000,
+        "June": 20000,
+        "July": 20000,
+        "August": 20000,
+        "September": 20000,
+        "October": 18000,
+        "November": 17000,
+        "December": 16700
+      },
+      "NPK_fertilizer": "10-10-10",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 80.5,
+        "Phosphorus": 15.8,
+        "Potassium": 68.5
+      }
+    },
+    {
+      "name": "Peas",
+      "temperature": {
+        "min": 15,
+        "max": 20
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80
+      },
+      "soil_moisture": {
+        "min": 20,
+        "max": 30
+      },
+      "sowing_months": [
+        "October",
+        "November"
+      ],
+      "harvesting_months": [
+        "April",
+        "May",
+        "June"
+      ],
+      "wholesale_price": {
+        "January": 3800,
+        "February": 3600,
+        "March": 4500,
+        "April": 5500,
+        "May": 7100,
+        "June": 9000,
+        "July": 9000,
+        "August": 5900,
+        "September": 11000,
+        "October": 8800,
+        "November": 7000,
+        "December": 5000
+      },
+      "retail_price": {
+        "January": 8100,
+        "February": 9000,
+        "March": 10000,
+        "April": 10700,
+        "May": 18800,
+        "June": 20200,
+        "July": 24600,
+        "August": 20000,
+        "September": 29000,
+        "October": 22500,
+        "November": 19000,
+        "December": 13000
+      },
+      "NPK_fertilizer": "5-10-10",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 100,
+        "Phosphorus": 30,
+        "Potassium": 80
+      }
+    },
+    {
+      "name": "Sugarcane",
+      "temperature": {
+        "min": 20,
+        "max": 32
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80
+      },
+      "soil_moisture": {
+        "min": 25,
+        "max": 35
+      },
+      "sowing_months": [
+        "July",
+        "August"
+      ],
+      "harvesting_months": [
+        "November",
+        "December"
+      ],
+      "wholesale_price": {
+        "January": 450,
+        "February": 410,
+        "March": 400,
+        "April": 390,
+        "May": 390,
+        "June": 370,
+        "July": 380,
+        "August": 380,
+        "September": 380,
+        "October": 370,
+        "November": 400,
+        "December": 470
+      },
+      "retail_price": {
+        "January": 4500,
+        "February": 4100,
+        "March": 4000,
+        "April": 3900,
+        "May": 3900,
+        "June": 4000,
+        "July": 4000,
+        "August": 3900,
+        "September": 4000,
+        "October": 3800,
+        "November": 4100,
+        "December": 4700
+      },
+      "NPK_fertilizer": "12-24-12",
+      "NPK_uptake_(kg/ha)": {
+        "Nitrogen": 250,
+        "Phosphorus": 80,
+        "Potassium": 90
+      }
+    }
+  ]
+}
