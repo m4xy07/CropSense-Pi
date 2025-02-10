@@ -1,0 +1,5 @@
+# RPi.GPIO is typically used on Raspberry Pi. Ensure you are running this on a compatible environment.
+RPi.GPIO==0.7.0
+gpiozero
+requests
+````
