@@ -1,10 +1,9 @@
 import time
 import json
-import RPi.GPIO as GPIO
 from datetime import datetime
 import requests
 from gpiozero import LED
-from sensors import read_dht_sensor, read_bme280_sensor, read_soil_moisture, check_for_rain
+from sensors import read_dht_sensor, read_bme280_sensor, read_soil_moisture, check_for_rain, read_air_quality
 from display import display_sensor_data
 from data_logging import log_data_to_file
 from server_communication import send_data_to_server
@@ -23,7 +22,7 @@ def main():
         bme_temp, pressure, bme_humidity = read_bme280_sensor()
         soil_moisture = read_soil_moisture()
         rain = check_for_rain()
-        air_quality_index = 0  # Placeholder for air quality index
+        air_quality_index = read_air_quality()
 
         if humidity is not None and temperature is not None:
             display_sensor_data(humidity, temperature, pressure, soil_moisture, rain)
