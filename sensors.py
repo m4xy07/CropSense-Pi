@@ -73,9 +73,9 @@ def check_for_rain():
         return None
 
 def read_air_quality():
-    air_quality_index = read_mq135()
-    debug_print(f"MQ135 Sensor - Air Quality Index: {air_quality_index}")
-    return air_quality_index
+    ppm = read_mq135()
+    debug_print(f"MQ135 Sensor - CO2 PPM: {ppm}")
+    return ppm
 
 
 
