@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 import requests
 from gpiozero import LED
-from sensors import read_dht_sensor, read_bme280_sensor, read_soil_moisture, check_for_rain, read_air_quality
+from sensors import read_dht_sensor, read_bme280_sensor, read_soil_moisture, check_for_rain, read_air_quality, read_npk_sensor
 from display import display_sensor_data
 from data_logging import log_data_to_file
 from server_communication import send_data_to_server
@@ -13,7 +13,7 @@ from secret import IPadd, PORT
 
 # Constants
 HIGH_TEMP_THRESHOLD = 35.0
-HIGH_SOIL_MOISTURE_THRESHOLD = 80.0
+HIGH_SOil_MOISTURE_THRESHOLD = 80.0
 HIGH_AQI_THRESHOLD = 1000
 
 def main():
@@ -23,6 +23,7 @@ def main():
         soil_moisture = read_soil_moisture()
         rain = check_for_rain()
         air_quality_index = read_air_quality()
+        nitrogen, phosphorus, potassium = read_npk_sensor()
 
         if humidity is not None and temperature is not None:
             display_sensor_data(humidity, temperature, pressure, soil_moisture, rain)

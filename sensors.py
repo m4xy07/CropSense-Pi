@@ -5,6 +5,8 @@ from gpiozero import InputDevice
 import smbus2
 import bme280s
 from mq135 import read_mq135
+import serial
+from npk_sensor import read_npk_sensor
 
 # Constants
 DHT_SENSOR = adafruit_dht.DHT22(board.D26)
@@ -76,8 +78,6 @@ def read_air_quality():
     ppm = read_mq135()
     debug_print(f"MQ135 Sensor - CO2 PPM: {ppm}")
     return ppm
-
-
 
 
 
